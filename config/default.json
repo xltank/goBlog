@@ -1,0 +1,11 @@
+{
+    "env": "default",
+    "port": "3000",
+    "mongo": {
+        "uri": "mongodb://localhost:27017/test"
+    },
+    "mysql": {
+        "pass": "root:root1234@",
+        "uri": "tcp(127.0.0.1:3306)/test?charset=utf8mb4&parseTime=True&loc=Local"
+    }
+}
